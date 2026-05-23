@@ -1,0 +1,75 @@
+aid: prodigy-learning
+url: https://raw.githubusercontent.com/api-evangelist/prodigy-learning/refs/heads/main/apis.yml
+name: Prodigy Education
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Education
+  - K-8
+  - Math
+  - English
+  - Game-Based Learning
+  - Rostering
+  - SSO
+  - Consumer
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  Prodigy Education is a Canadian K-8 game-based learning company best known for Prodigy Math
+  and Prodigy English — fantasy RPG-style products in which students battle and quest by
+  answering curriculum-aligned questions. The product is free for teachers and is monetized
+  through optional parent memberships. Prodigy is consumer- and classroom-facing with no
+  public developer API or partner program. Its integration surface is school rostering and
+  SSO: Clever (SSO + Secure Sync district rostering), ClassLink (SSO, with OneRoster
+  district rostering rolling out), and Google (SSO + Google Classroom assignment creation).
+apis: []
+common:
+  - type: Website
+    url: https://www.prodigygame.com
+  - type: ForTeachers
+    url: https://www.prodigygame.com/main-en/teachers
+  - type: ForParents
+    url: https://www.prodigygame.com/main-en/parents
+  - type: ForAdministrators
+    url: https://www.prodigygame.com/main-en/administrators
+  - type: ProdigyMath
+    url: https://www.prodigygame.com/main-en/math
+  - type: ProdigyEnglish
+    url: https://www.prodigygame.com/main-en/english
+  - type: ParentMemberships
+    url: https://www.prodigygame.com/main-en/memberships
+  - type: HelpCenter
+    url: https://prodigygame.zendesk.com/hc/en-us
+  - type: CleverIntegration
+    url: https://www.clever.com/prodigy
+  - type: Blog
+    url: https://www.prodigygame.com/main-en/blog
+  - type: Newsroom
+    url: https://www.prodigygame.com/main-en/prodigy-newsroom
+  - type: PrivacyPolicy
+    url: https://www.prodigygame.com/main-en/privacy-policy
+  - type: TermsOfService
+    url: https://www.prodigygame.com/main-en/terms-of-service
+  - type: TrustCenter
+    url: https://www.prodigygame.com/main-en/security-and-privacy
+  - type: Careers
+    url: https://www.prodigygame.com/main-en/careers
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/prodigy-education
+  - type: Twitter
+    url: https://x.com/prodigygame
+  - type: Facebook
+    url: https://www.facebook.com/ProdigyGame
+  - type: YouTube
+    url: https://www.youtube.com/@ProdigyGame
+  - type: Support
+    url: https://prodigygame.zendesk.com/hc/en-us/requests/new
+integrations:
+  - name: Clever
+  - name: ClassLink
+  - name: Google Classroom
+  - name: Google SSO
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
