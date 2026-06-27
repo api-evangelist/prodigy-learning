@@ -9,6 +9,13 @@
       "method": "none"
     },
     {
+      "source": "https://www.clever.com/feed/",
+      "feed_url": "https://www.clever.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.clever.com/prodigy",
       "feed_url": "https://www.clever.com/feed/",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 4,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 5,
+  "fetched": "2026-06-27T12:03:07Z"
 }
