@@ -1,0 +1,12 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://trust.prodigygame.com/
+url: https://trust.prodigygame.com/
+certifications:
+- CSA STAR
+evidence:
+- source: https://trust.prodigygame.com/
+  keywords:
+  - trust center
+  - csa star

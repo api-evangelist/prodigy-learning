@@ -25,6 +25,10 @@ description: >-
   district rostering rolling out), and Google (SSO + Google Classroom assignment creation).
 apis: []
 common:
+  - type: TrustCenter
+    url: security/prodigy-learning-trust-center.yml
+  - type: DomainSecurity
+    url: security/prodigy-learning-domain-security.yml
   - type: Website
     url: https://www.prodigygame.com
   - type: ForTeachers
