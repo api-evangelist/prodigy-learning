@@ -1,0 +1,37 @@
+edges:
+- partner_name: 1EdTech
+  partner: null
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://site.imsglobal.org/certifications
+  category: 1EdTech certified products
+  contract_reference:
+    register: 1EdTech certified product directory (TrustEd Apps)
+    spec_file: null
+    standard: 1EdTech
+    role: TrustEd Apps Alliance Member
+    registered_name: Prodigy Education
+    matched_domain: prodigygame.com
+    matched_by: domain+verified
+    standards:
+    - Data Privacy
+    certified_products:
+    - product: Prodigy
+      version: v1
+      standards:
+      - Data Privacy
+      implementation: null
+      attributes:
+      - Certified Product
+      - TrustEd Apps Seal
+      - Vetted
+      lapsed: false
+      url: https://site.imsglobal.org/certifications/prodigy-education/prodigy/v1
+    detected_by: sweep-edtech.py
+    detected: '2026-10-14'
+generated: '2026-10-14'
+method: searched
+checked:
+- https://site.imsglobal.org/certifications
